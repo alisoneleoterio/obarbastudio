@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,6 @@
   outline: 0;
 }
 
-/* Estilizando a barra de rolagem */
 ::-webkit-scrollbar {
   width: 12px;
 }
@@ -218,6 +219,7 @@ header {
   align-items: center;
   justify-content: center;
   padding: 54px 14px;
+  font-size: 1.3rem;
 }
 
 .services-content h2 {
@@ -289,21 +291,20 @@ header {
     max-width: 735px;
   }
 }
+
 .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 54px 0;
-  gap: 24px;
+  gap: 10px;
   color: #fff;
   background-color: #000;
 }
 
 .footer-icons {
-  display: flex;
-  gap: 8px;
-  color: #fff;
+  margin-bottom: 19px;
 }
 
 .footer-icons a:hover i {
@@ -311,8 +312,8 @@ header {
   color: #00ccff;
 }
 
-.footer img{
-  width: 10rem;
+.footer p {
+  font-size: 1.1rem;
 }
 
 .btn-whatsapp {
@@ -355,7 +356,7 @@ header {
   }
 }
 body {
-  font-family: "Sora", sans-serif;
+  font-family: 'Cabin', sans-serif;
   width: 100%;
   height: 100vh;
   position: relative;
@@ -363,7 +364,7 @@ body {
 }
 
 button {
-  font-family: "Sora", sans-serif;
+  font-family: 'Cabin', sans-serif;
   cursor: pointer;
 }
 
@@ -378,9 +379,8 @@ img {
 a {
   cursor: pointer;
   text-decoration: none;
-}/*# sourceMappingURL=style.css.map */
+}
 
-/***Menu***/
 .menu {
   display: flex;
   align-items: center;
@@ -424,7 +424,6 @@ a {
   stroke-dashoffset: -32.42;
 }
 
-/***Menu Navegação***/
 .menu-aberto {
   background-color: #000;
   position: fixed;
@@ -479,7 +478,6 @@ a {
   transition: all 0.3s ease;
 }
 
-/*** COMPLEMENTO ***/
 .sobre {
   background-color: #000;
   width: 100%;
